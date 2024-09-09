@@ -1,0 +1,26 @@
+## directory of document source files
+## defalut: `docs`
+# -----------------------
+dir: docs
+
+## output directory of generated documents
+## defalut: `dist`
+# -----------------------
+output: dist
+
+favicon: ./logo.png
+logo: ./logo.png
+
+## site name
+# -----------------------
+site: AUTO翻译器文档
+
+
+## Customize theme settings.
+## defalut: `default`
+# -----------------------
+theme: themes/default
+
+footer: |
+  Copyright © 2024 <a href="https://hoshiwa.com/" target="_blank">hoshiwa</a><br />
+
