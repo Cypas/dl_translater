@@ -15,6 +15,7 @@ logo: ./logo.png
 # -----------------------
 site: AUTD翻译器文档
 
+cacheFileStat: true
 
 ## Customize theme settings.
 ## defalut: `default`
