@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AUTD翻译器文档</title>
+    <meta name="description" content="第一次使用时需要打开设置配置一次ocr以及翻译源，此后无需再做更改，设置入口如图所示">
+    <link rel="stylesheet" type="text/css" href="css/main.css?v=1.33.2">
+    <link rel="stylesheet" type="text/css" href="css/tocbot.css?v=1.33.2">
+    <link rel="stylesheet" type="text/css" href="css/media.css?v=1.33.2">
+    <link rel="stylesheet" type="text/css" href="css/sidebar.css?v=1.33.2">
+    <link rel="stylesheet" type="text/css" href="css/copy.css?v=1.33.2">
+    <link rel="stylesheet" type="text/css" href="css/demo-preview.css?v=1.33.2">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <script src="js/copy.js?v=1.33.2"></script>
+    <script src="js/dark-mode.js?v=1.33.2"></script>
+    <script src="js/markdown-style.js?v=1.33.2"></script>
+  </head>
+  <body id="idoctotop"><a href="#idoctotop" class="gototop">top</a>
+    <header class="header">
+      <article class="inner warpper"><a class="logo" href="index.html"><img alt="AUTD翻译器文档 logo" src="logo.png">
+<span class="title">AUTD翻译器文档</span></a>
+        <div class="content">
+          <ul class="menu">
+            <li><a href="dl/translator.html" target="" class="">翻译源配置</a></li>
+          </ul>
+          <dark-mode permanent=""></dark-mode>
+        </div>
+      </article>
+    </header>
+    <div class="warpper-content warpper sidebar">
+      <div class="sidebar-border">
+        <aside class="sidebar" role="navigation">
+          <div>
+            <a href="index.html" class="active">快速使用</a>
+            <label>更多</label>
+            <a href="dl\full.html" class="">高级功能</a>
+            <a href="dl\else.html" class="">其他支持</a>
+            <a href="dl\translator.html" class="">翻译源配置</a>
+          </div>
+        </aside>
+      </div>
+      <markdown-style theme-auto-switch-disabled="">
+        <h3 id="1打开应用"><a aria-hidden="true" tabindex="-1" href="#1打开应用" class="anchor"><span class="icon icon-link"></span></a>1.打开应用</h3>
+        <ol>
+          <li>
+            <p>将软件压缩包解压后，双击<code>AutoTranslator.exe</code>即可运行软件</p>
+            <ul>
+              <li>
+                <img src="assets/img/3005.webp" alt="打开软件" title=":size=70%">
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p>首次启动时会提示需要安装DLsite Nest后才可使用本翻译器，下载并安装该软件后再次重启AUTD翻译器即可</p>
+            <ul>
+              <li>
+                <img src="assets/img/20-52-36.webp" alt="20-52-36">
+              </li>
+              <li>
+                <img src="assets/img/20-03-34.webp" alt="20-03-34">
+              </li>
+            </ul>
+          </li>
+        </ol>
+        <h3 id="2配置ocr"><a aria-hidden="true" tabindex="-1" href="#2配置ocr" class="anchor"><span class="icon icon-link"></span></a>2.配置ocr</h3>
+        <p>
+          第一次使用时需要打开设置配置一次ocr以及翻译源，此后无需再做更改，设置入口如图所示
+          
+          <img src="assets/img/image-20240912205804308.webp" alt="image-20240912205804308">
+        </p>
+        <ul>
+          <li>ocr的作用是提取图片中的文字内容，随后软件会调用翻译接口对这些文字进行翻译</li>
+        </ul>
+        <ol>
+          <li>
+            <p>软件内ocr现在提供了在线与离线两种模式</p>
+            <ul>
+              <li>在线模式由我们服务器提供运算服务，无需占用本地cpu，对电脑性能几乎无要求，新用户可免费试用3天在线ocr，或点击<code>购买方案</code>补充付费时长，具体可查看<a href="dl/else.html#%E5%9C%A8%E7%BA%BFocr%E8%AF%B4%E6%98%8E">在线ocr说明</a></li>
+              <li>离线模式需要下载模型至本地电脑，对cpu占用及电脑性能要求较高</li>
+            </ul>
+          </li>
+          <li>
+            <p>选择需要翻译的原文语种，软件目前支持<code>日语和英语</code></p>
+            <ul>
+              <li>
+                <img src="assets/img/image-20240912205849200.webp" alt="image-20240912205849200">
+              </li>
+            </ul>
+          </li>
+        </ol>
+        <h3 id="3配置翻译源"><a aria-hidden="true" tabindex="-1" href="#3配置翻译源" class="anchor"><span class="icon icon-link"></span></a>3.配置翻译源</h3>
+        <ul>
+          <li>若处于3天试用期或已购买付费方案的用户，无需配置此项</li>
+          <li>翻译源的作用是将前面ocr提取到的文本翻译为中文</li>
+          <li>软件提供了多达9种<code>在线翻译源</code>，可同时开启多种翻译源对比进行查看</li>
+          <li>翻译源对比及每种翻译源配置请查看<a href="dl/translator.html">各翻译源注册</a></li>
+        </ul>
+        <p>
+          <img src="assets/img/image-20240912205943445.webp" alt="image-20240912205943445">
+        </p>
+        <h3 id="4框选翻译区域及翻译"><a aria-hidden="true" tabindex="-1" href="#4框选翻译区域及翻译" class="anchor"><span class="icon icon-link"></span></a>4.框选翻译区域及翻译</h3>
+        <ol>
+          <li>点击翻译器功能区域的<code>范围选择按钮</code>，框选出游戏内的文字框，正常情况下选择区域后便会立刻出现翻译内容</li>
+        </ol>
+        <ul>
+          <li>
+            <p><code>注意翻译区域不要与翻译器页面重合</code>，可以把翻译器<code>放到翻译区域下方或上方</code></p>
+          </li>
+          <li>
+            <p>
+              <img src="assets/img/image-20240912211732186.webp" alt="image-20240912211732186">
+            </p>
+          </li>
+          <li>
+            <p>之后每句话需要手动点击翻译按钮进行翻译</p>
+          </li>
+          <li>
+            <p>
+              <img src="assets/img/image-20240912211824208.webp" alt="image-20240912211824208">
+            </p>
+          </li>
+        </ul>
+        <ol start="2">
+          <li>也可以切换为自动翻译模式，这样在游戏文本发生改变时，也会自动进行翻译操作</li>
+        </ol>
+        <ul>
+          <li>
+            <img src="assets/img/image-20240912211945368.webp" alt="image-20240912211945368">
+          </li>
+        </ul>
+        <ol start="3">
+          <li>更多翻译功能的调整如人名的替换可以查看<a href="dl/full.html">高级功能</a></li>
+        </ol>
+        <div class="previous"><span></span><a class="next" href="dl\full.html"><span>高级功能
+</span><svg viewBox="0 0 1024 1024" width="16" height="16" fill="currentColor">
+              <path d="M544 522.666667c0-8.533333-4.266667-17.066667-10.666667-23.466667L192 189.866667c-12.8-12.8-34.133333-10.666667-44.8 2.133333-12.8 12.8-10.666667 34.133333 2.133333 44.8l315.733334 285.866667L149.333333 808.533333c-12.8 12.8-14.933333 32-2.133333 44.8 6.4 6.4 14.933333 10.666667 23.466667 10.666667 8.533333 0 14.933333-2.133333 21.333333-8.533333l341.333333-309.333334c6.4-6.4 10.666667-14.933333 10.666667-23.466666z"></path>
+              <path d="M864 499.2l-341.333333-309.333333c-12.8-12.8-34.133333-10.666667-44.8 2.133333-12.8 12.8-10.666667 34.133333 2.133333 44.8l315.733333 285.866667-315.733333 285.866666c-12.8 12.8-14.933333 32-2.133333 44.8 6.4 6.4 14.933333 10.666667 23.466666 10.666667 8.533333 0 14.933333-2.133333 21.333334-8.533333l341.333333-309.333334c6.4-6.4 10.666667-14.933333 10.666667-23.466666 0-8.533333-4.266667-17.066667-10.666667-23.466667z"></path>
+            </svg></a></div>
+      </markdown-style>
+      <nav class="tocs">
+        <aside class="inner toc">
+          <ol class="tocs-list">
+            <li><a href="#1打开应用" class="tocs-link">1.打开应用</a></li>
+            <li><a href="#2配置ocr" class="tocs-link">2.配置ocr</a></li>
+            <li><a href="#3配置翻译源" class="tocs-link">3.配置翻译源</a></li>
+            <li><a href="#4框选翻译区域及翻译" class="tocs-link">4.框选翻译区域及翻译</a></li>
+          </ol>
+        </aside>
+      </nav>
+    </div>
+    <script src="js/demo-preview.js?v=1.33.2"></script>
+    <div class="footer warpper">Copyright © 2024 <a href="https://hoshiwa.com/" target="_blank">hoshiwa</a><br></div>
+    <script src="js/tocbot.js?v=1.33.2"></script>
+  </body>
+</html>
