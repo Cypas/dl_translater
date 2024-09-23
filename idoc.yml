@@ -11,16 +11,16 @@ output: dist
 favicon: ./logo.png
 logo: ./logo.png
 
+menus:
+  翻译源配置: dl/translator.html
+
 ## site name
 # -----------------------
 site: AUTD翻译器文档
 
 cacheFileStat: true
 
-## Customize theme settings.
-## defalut: `default`
-# -----------------------
-theme: themes/default
+
 
 footer: |
   Copyright © 2024 <a href="https://hoshiwa.com/" target="_blank">hoshiwa</a><br />
